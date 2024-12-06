@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(31, 31, 31);
+            background-color: #f9eeee;
+        }
+
+        h1 {
+            margin: 10px;
+        }
+
+        .container {
+            /* display: flex; */
+            border: 2px solid black;
+            height: 250px;
+            background-color: #efcbcb;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        .flex-container {
+            display: flex;
+        }
+
+        .circle-pastel-1 {
+            background-color: rgb(239, 59, 59);
+            border-radius: 100px;
+            padding: 10px;
+            margin: 2px;
+            height: 10px;
+            width: 10px;
+            text-align: center;
+        }
+
+        .circle-pastel-2 {
+            background-color: #f38c37;
+            padding: 10px;
+            margin: 2px;
+            height: 10px;
+            width: 10px;
+            text-align: center;
+            border-radius: 100px;
+        }
+
+        .circle-pastel-3 {
+            background-color: #6037f3;
+            padding: 10px;
+            margin: 2px;
+            border-radius: 100px;
+            height: 10px;
+            width: 10px;
+            text-align: center;
+        }
+
+        .circle-pastel-4 {
+            background-color: #37f35d;
+            padding: 10px;
+            margin: 2px;
+            height: 10px;
+            width: 10px;
+            text-align: center;
+            border-radius: 100px;
+        }
+
+        .circle-pastel-5 {
+            background-color: #f3da37;
+            padding: 10px;
+            margin: 5px;
+            height: 10px;
+            width: 10px;
+            text-align: center;
+            border-radius: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FlexBox Masterclass Demo</h1>
+    <div class="container">
+        <h2>1. Default Flex (row)</h2>
+        <div class="flex-container">
+            <div class="circle-pastel-1">1</div>
+            <div class="circle-pastel-2">2</div>
+            <div class="circle-pastel-3">3</div>
+            <div class="circle-pastel-4">4</div>
+            <div class="circle-pastel-5">5</div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <h2>2. Flex Direction: Column</h2>
+        <div class="flex-container" style="flex-direction: column;">
+            <div class="circle-pastel-1">1</div>
+            <div class="circle-pastel-2">2</div>
+            <div class="circle-pastel-3">3</div>
+            <div class="circle-pastel-4">4</div>
+            <div class="circle-pastel-5">5</div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <h2>3. Justify content: Space-Between</h2>
+        <div class="flex-container" style="justify-content: space-around;">
+            <div class="circle-pastel-1">1</div>
+            <div class="circle-pastel-2">2</div>
+            <div class="circle-pastel-3">3</div>
+            <div class="circle-pastel-4">4</div>
+            <div class="circle-pastel-5">5</div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <h2>4. Align Item: Center</h2>
+        <div class="flex-container" style="justify-content: space-between;">
+            <div class="circle-pastel-1">1</div>
+            <div class="circle-pastel-2">2</div>
+            <div class="circle-pastel-3">3</div>
+            <div class="circle-pastel-4">4</div>
+            <div class="circle-pastel-5">5</div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>5. Flex Wrap: Wrap</h2>
+        <div class="flex-container" style="align-items: center;">
+            <div class="circle-pastel-1">1</div>
+            <div class="circle-pastel-2">2</div>
+            <div class="circle-pastel-3">3</div>
+            <div class="circle-pastel-4">4</div>
+            <div class="circle-pastel-5">5</div>
+            <div class="circle-pastel-1">1</div>
+            <div class="circle-pastel-2">2</div>
+            <div class="circle-pastel-3">3</div>
+            <div class="circle-pastel-4">4</div>
+            <div class="circle-pastel-5">5</div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
